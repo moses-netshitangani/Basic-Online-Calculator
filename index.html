@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <title>Calculatory</title>
+  <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+  <div class="exterior">
+    <input type="text" id="textview" value="">
+    <div class="button-container">
+      <div class="upper-buttons">
+        <button type="button" onclick="press(7)">7</button>
+        <button type="button" onclick="press(8)">8</button>
+        <button type="button" onclick="press(9)">9</button>
+        <button type="button" onclick="del()">Del</button>
+        <button type="button" onclick="clr()">Clr</button>
+        <button type="button" onclick="press(4)">4</button>
+        <button type="button" onclick="press(5)">5</button>
+        <button type="button" onclick="press(6)">6</button>
+        <button type="button" onclick="press('*')">
+          <img src="icons/mul.png" alt="">
+        </button>
+        <button type="button" onclick="press('/')">
+          <img src="icons/div.png" alt="">
+        </button>
+      </div>
+      <div class="lower-buttons">
+        <div class="top">
+          <button type="button" onclick="press(1)">1</button>
+          <button type="button" onclick="press(2)">2</button>
+          <button type="button" onclick="press(3)">3</button>
+          <button type="button" onclick="press('+')">
+            <img src="icons/add.png" alt="">
+          </button>
+          <button type="button" onclick="press('.')">.</button>
+          <button type="button" onclick="press(0)">0</button>
+          <button type="button" onclick="press('Math.sqrt(')">
+            <img src="icons/root.png" alt="">
+          </button>
+          <button type="button" onclick="press('-')">
+            <img src="icons/minus.png" alt="">
+          </button>
+        </div>
+        <div class="bottom">
+          <div class="brackets">
+            <button type="button" onclick="press('(')">(</button>
+            <button type="button" onclick="press(')')">)</button>
+          </div>
+          <button type="button" onclick="ans()">
+            <img src="icons/equals.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/calc.js" charset="utf-8"></script>
+</body>
+
+</html>

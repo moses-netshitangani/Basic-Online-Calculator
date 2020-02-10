@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.exterior {
+  background-color: red;
+  height: 500px;
+  width: 400px;
+}
