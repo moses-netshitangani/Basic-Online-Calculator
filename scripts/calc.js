@@ -14,5 +14,5 @@ function del(){
 }
 
 function ans(){
-  display.value = eval(display.value);
+  display.value = eval(display.value).toPrecision(2);
 }

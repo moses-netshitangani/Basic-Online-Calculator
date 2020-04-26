@@ -7,11 +7,12 @@
 }
 
 body {
-  background-color: #1a83f08c;
+  background: linear-gradient(#de6262, #ffb88c);
+  height: 100vh;
 }
 
 .exterior {
-  background-color: teal;
+  background: linear-gradient(#eb3349, #f45c43);
   width: 500px;
   height: 600px;
   margin: 0 auto;
@@ -74,7 +75,7 @@ input {
     height: 99%;
   }
   100% {
-    background-color: #3682d3;
+    background-color: #eb3349;
     width: 100%;
     height: 100%;
   }
