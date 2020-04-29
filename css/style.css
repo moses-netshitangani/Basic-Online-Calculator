@@ -4,7 +4,7 @@
 }
 
 .exterior {
-  background-color: red;
+  background: linear-gradient(#de626, #ffb88c);
   height: 500px;
   width: 400px;
 }
