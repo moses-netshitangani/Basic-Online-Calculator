@@ -82,6 +82,5 @@ input {
 }
 
 button:hover {
-  animation: clr-change;
-  animation-duration: 1s;
+  animation: clr-change 1s linear infinite;
 }
